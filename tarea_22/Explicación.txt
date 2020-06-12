@@ -18,4 +18,4 @@ Para ello, hay que ir a través de todas las posibles combinaciones de suma de p
 Surge la problemática de que cuando se repite un número, a la hora de realizar las combinaciones y obtener los índices de esas combinaciones, podemos tener algún que otro problema.
 Para entender esto último, ve a la explicación del código.
 
-Sergio
+
