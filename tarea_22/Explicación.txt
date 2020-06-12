@@ -17,3 +17,5 @@ El código maximiza la cantidad de litros de leche que se pueden obtener cumplie
 Para ello, hay que ir a través de todas las posibles combinaciones de suma de peso de las vacas, las cuales incrementan exponencialmente conforme introducimos más vacas.
 Surge la problemática de que cuando se repite un número, a la hora de realizar las combinaciones y obtener los índices de esas combinaciones, podemos tener algún que otro problema.
 Para entender esto último, ve a la explicación del código.
+
+Sergio
