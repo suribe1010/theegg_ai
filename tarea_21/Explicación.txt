@@ -1,9 +1,16 @@
 ----------------------------------------------------------------------------------------------------------------------------------
 PARA EJECUTAR EL CÓDIGO
-Clickar en "Open in Colab". Rectángulo que aparece arriba del archivo en azul. Parece que no deja entrar de primeras, te saldrá una venta diciendo que no es posible encontrarlo. Debes dar autorización con Github, y te saldrá otra ventana diciendo que no se ha encontrado el archivo. Dale a Aceptar y podrás manualmente elegir que archivo quieres abrir para ejecutar. Es posible que te pida ingresar tu correo de Gmail. Hecho esto deberías poder ejecutar el código en google colab. 
-**Muy importante: ejecutar cada línea de código UNA vez y de FORMA ORDENADA DESCENDENTE --> si la ejecutamos más de una vez, podemos cambiar el resultado final, y si nos saltamos alguna línea, seguramente salga error. Deberías ser capaz de obtener los resultados que visualizas en GitHub. **
+Clickar en "Open in Colab". Rectángulo que aparece arriba del archivo en azul.
+Parece que no deja entrar de primeras, te saldrá una venta diciendo que no es posible encontrarlo. 
+Debes dar autorización con Github, y te saldrá otra ventana diciendo que no se ha encontrado el archivo. 
+Dale a Aceptar y podrás manualmente elegir que archivo quieres abrir para ejecutar. 
+Es posible que te pida ingresar tu correo de Gmail. Hecho esto deberías poder ejecutar el código en google colab. 
+**Muy importante: ejecutar cada línea de código UNA vez y de FORMA ORDENADA DESCENDENTE --> 
+si la ejecutamos más de una vez, podemos cambiar el resultado final, y si nos saltamos alguna línea, seguramente salga error. 
+Deberías ser capaz de obtener los resultados que visualizas en GitHub. **
 
-¿Como saber si hemos ejecutado una línea? A la izquierda de la línea, aparece una celda. Cuando ha acabado de ejecutarse, aparace un número que indica 2 cosas:
+¿Como saber si hemos ejecutado una línea? A la izquierda de la línea, aparece una celda. 
+Cuando ha acabado de ejecutarse, aparace un número que indica 2 cosas:
 - Que se ha ejecutado
 - Que es la X línea en ejecutarse (X = numero)
 
@@ -13,7 +20,8 @@ Clickar en "Open in Colab". Rectángulo que aparece arriba del archivo en azul. 
 
 --------------------------------------------------------------------------------------------------------------------------------------
 EXPLICACIÓN DEL CÓDIGO DE LA TAREA 21
-El código lo que hace es coger un número con decimales y deshacernos de ellos multiplicando por 10, 100, 1000... Pero para que sea el mismo número, habrá que dividir también por ese factor multiplicador. 
+El código lo que hace es coger un número con decimales y deshacernos de ellos multiplicando por 10, 100, 1000... 
+Pero para que sea el mismo número, habrá que dividir también por ese factor multiplicador. 
 Se sacan los numeros primos en los que se descomponen el numerador y denominador.
 Se observa los numeros primos que son iguales para numerador y denominador, y se dividen ambos por este numero primo.
 Así, se llega al resultado final, quedandonos con la fracción más simple indivisible.
