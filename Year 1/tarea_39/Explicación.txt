@@ -1,1 +1,1 @@
-
+Tarea 1: con un ordenador, un servidor WEB y un servidor DNS es suficiente para ilustrar lo siguiente. El ordenador es capaz de conectarse al servidor WEB(a la página web conociendo su IP). Pero como las IP son difíciles de memorizar, un servidor DNS se encarga de relacionar la IP con el nombre de la página web. Así por tanto, podemos acceder desde el PC a la página web en el servidor WEB a través del servidor DNS.
