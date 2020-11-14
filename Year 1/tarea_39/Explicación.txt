@@ -2,3 +2,24 @@ Tarea 1: con un ordenador, un servidor WEB y un servidor DNS es suficiente para 
 de conectarse al servidor WEB(a la página web conociendo su IP). Pero como las IP son difíciles de memorizar, un servidor DNS
 se encarga de relacionar la IP con el nombre de la página web. Así por tanto, podemos acceder desde el PC a la página web en 
 el servidor WEB a través del servidor DNS.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+Tarea 2: Red con servidor DHCP (Protocolo de Configuración Dinámica de Host): protocolo mediante el cual los routers, hubs o conmutadores pueden asignar de forma automática una IP a los dispositivos que solicitan conectarse a una red.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+Tarea 3: Red VLAN(Virtual Local Area Network): son redes virtuales indipendientes que en lo que concierne a la seguridad, los dispositivos pertenecientes a una VLAN no tienen acceso a los que se encuentren en otras y viceversa. Resulta útil cuando queremos segmentar los equipos y limitar el acceso entre ellos por temas de seguridad. Tendríamos a los dispositivos divididos en «clases» aunque pertenezcan a una misma red. Para que haya comunicación entre redes VLAN, insertamos un Router al Switch(en este último están las 3 redes) en modo TRUNK.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+Tarea 4: Unión redes VLAN con router
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+Tarea 5: Unión redes con enrutamiento estático: El enrutamiento estático es la alternativa a los protocolos de enrutamiento, donde se especifican las redes de destino, por donde enviar la información y la distancia administrativa.
+
+Un administrador de red puede configurar una ruta estática de forma manual para alcanzar una red específica. A diferencia de un protocolo de routing dinámico, las rutas estáticas no se actualizan automáticamente, y se deben volver a configurar de forma manual cada vez que cambia la topología de la red. Una ruta estática no cambia hasta que el administrador la vuelve a configurar en forma manual.
+
+Al configurar la ruta estática, se han de especificar los siguientes datos:
+
+    IP de red de destino.
+    Máscara de red de destino.
+    IP del router por el cual se enviarán los paquetes o bien interfaz de envío de los datos.
+    Distancia Administrativa.
