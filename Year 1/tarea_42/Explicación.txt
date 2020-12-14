@@ -1,1 +1,14 @@
+PASOS A SEGUIR PARA QUE FUNCIONE CORRECTAMENTE
 
+1- Descargar IARobotics.html, IARobotics.css y artyom.min.js.
+2- Teniendolos en la misma carpeta, con el botón derecho del ratón, pulsar en Abrir Con -->
+   **muy importante que sea con Google Chrome, ya que los comandos de voz sólo son válidas para este navegador**
+3- Se abrirá una ventana con la página web. Para que el video comienze, habrá que pulsar en el botón "COMANDOS DE VOZ".
+4- Abrá que habilitarle los permisos para que pueda utilizar el microfono. 
+5- Si todo va bien, se debería ver arriba en la pestaña de la página web, un icono rojo(dos circulos) de grabación.
+6- Cuando aparece, decimos "adelante" para que el video inicie. Se imprime lo que el programa ha entendido. Si la impresión es  
+   diferente, no empezará el video y habrá que decirlo más claro.
+7- Una vez el video está en play, podemos pararlo por voz pulsando de nuevo en el botón "COMANDOS DE VOZ".
+8- Ahora, habrá que decirle "quieto". En este punto, hay que decirselo muy claro ya que con la música del video 
+   puede que no entienda bien la palabra. Pero si la palabra que imprime es exactamente "quieto", el video se para de reproducir.
+9- Se puede estar así continuamente, dandole órdenes de arranque y paro por voz.
