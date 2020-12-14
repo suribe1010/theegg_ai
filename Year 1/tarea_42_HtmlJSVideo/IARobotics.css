@@ -1,0 +1,117 @@
+* {
+margin: 0px;
+padding: 0px;
+}
+.output{
+  color: green;
+}
+.square_btn{
+      margin-top: 20px; 
+     margin-left: 60px;
+    display: inline-block;
+    padding: 7px 20px;
+	border-radius: 25px;
+    text-decoration: none;
+    color: #FFF;
+    background-image: -webkit-linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+    background-image: linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+    transition: .4s;
+}
+
+.square_btn:hover {
+    background-image: -webkit-linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
+    background-image: linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
+}
+
+#agrupar {
+width: 550px;
+margin: 50px auto;
+text-align: left;
+}
+
+#menu {
+margin-top: 80px;
+background: #CCCCCC;
+padding: 5px 15px;
+}
+#menu li {
+display: inline-block;
+list-style: none;
+padding: 5px;
+font: bold 14px verdana, sans-serif;
+}
+
+#pie {
+clear: both;
+text-align: center;
+padding: 20px;
+border-top: 2px solid #999999;
+}
+
+div {
+width: 100px;
+margin: 20px;
+padding: 10px;
+border: 1px solid #000000;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+#principal {
+display: block;
+width: 500px;
+margin: 50px auto;
+padding: 15px;
+text-align: center;
+border: 1px solid #999999;
+background: #DDDDDD;
+}
+#titulo {
+font: bold 36px verdana, sans-serif;
+}
+#principal {
+display: block;
+width: 500px;
+margin: 50px auto;
+padding: 15px;
+text-align: center;
+border: 1px solid #999999;
+background: #DDDDDD;
+-moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+border-radius: 20px;
+-moz-box-shadow: rgb(150,150,150) 5px 5px;
+-webkit-box-shadow: rgb(150,150,150) 5px 5px;
+box-shadow: rgb(150,150,150) 5px 5px;
+background: -webkit-linear-gradient(top, #FFFFFF, #006699);
+background: -moz-linear-gradient(top, #FFFFFF, #006699);
+}
+#titulo {
+font: bold 36px verdana, sans-serif;
+}
+#principal {
+display: block;margin: 50px auto;
+padding: 15px;
+text-align: center;
+border: 1px solid #999999;
+background: #DDDDDD;
+-moz-transform: translateY(10px) rotate(15deg) scaleX(0.7);
+-webkit-transform: translateY(10px) rotate(15deg) scaleX(0.7);
+}
+
+#principal {
+display: block;
+width: 500px;
+margin: 50px auto;
+padding: 15px;
+text-align: center;
+border: 1px solid #999999;
+background: #DDDDDD;
+-moz-transition: -moz-transform 1s ease-in-out 0.5s;
+-webkit-transition: -webkit-transform 1s ease-in-out 0.5s;
+}
+#principal:hover{
+-moz-transform: rotate(5deg);
+-webkit-transform: rotate(5deg);
+}

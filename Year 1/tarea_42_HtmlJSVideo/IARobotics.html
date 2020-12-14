@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inteligencia Artificial aplicada en Robótica</title>
+    <link rel="stylesheet" href="IARobotics.css">
+    <script src="artyom.min.js"></script>
+    <script>
+        function startArtyom(){
+            artyom.initialize({
+                lang:"es-ES",
+                continuous:false,
+                debug:true,
+                listen:true
+        }); 
+            
+        }
+        function stopArtyom(){
+            artyom.fatality();
+            
+        }
+// TUTORIAL: https://www.youtube.com/watch?v=vI_bKvfWZHM
+    </script>
+</head>
+<body>
+    <div id="agrupar">
+
+        <header id="principal">
+            <span id="titulo">Inteligencia Artificial aplicada en Robotica</span>
+        </header>
+        <nav id="menu">
+            <ul>
+                <li>Quienes somos</li>
+                <li>Proyectos</li>
+                <li>Trabaja con nosotros</li>
+                <li>Contacto</li>
+            </ul>
+        </nav>
+        <input class="square_btn" type="button" onclick="startArtyom()" value="Comandos de Voz">
+        <input class="square_btn" type="button" onclick="stopArtyom()" value="Parar de escuchar"/><br>
+        <span id="output"></span>
+        <video id="myVideo" width="528" height="400" controls duration>
+            <source  src="Video_ReinforcementLearning.mp4"/>
+        </video>
+        <script>
+             var video = document.getElementById("myVideo");
+
+            artyom.addCommands([
+            {
+              indexes:["quieto"],
+              action:function(i){
+                  // i = the index of the array of indexes option
+
+                  if(i == 0){
+                    //You say : "quieto"
+                      video.pause();
+                  }
+              }
+            },{
+                indexes:["adelante"],
+                action:function(i){
+                  // i = the index of the array of indexes option
+                  if(i == 0){
+                    //you say "adelante"
+                      video.play();
+                  }
+              }
+                
+            }
+                
+            ]);
+ 
+            // Redirect the recognized text
+            artyom.redirectRecognizedTextOutput(function(text,isFinal){
+            var span = document.getElementById('output');
+            
+            if(isFinal){
+              span.innerHTML = '';
+            }else {
+              span.innerHTML = text;
+            
+            }
+            });
+
+        </script>
+
+        
+        <footer id="pie">
+        Derechos Reservados &copy; 2020-2021
+        </footer>
+    </div>
+</body>
+</html>
