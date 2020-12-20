@@ -20,7 +20,7 @@ Cuando ha acabado de ejecutarse, aparace un número que indica 2 cosas:
 - Símbolo de Play a la izquierda.
 
 --------------------------------------------------------------------------------------------------------------------------------------
-EXPLICACIÓN DEL CÓDIGO DE LA TAREA 22
+EXPLICACIÓN DEL CÓDIGO DE LA TAREA 23
 Se trata de encriptar un mensaje a través de números para posteriormente desencriptarlo. 
 El procedimiento seguido ha sido el expuesto en el siguiente enlace, donde se detalla un buen ejemplo:
 https://sindominio.net/biblioweb/telematica/solitario.html
