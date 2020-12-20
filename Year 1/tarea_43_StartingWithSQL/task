@@ -9,3 +9,4 @@
 - Ordenar de forma desscendente según SubscriptionDate y luego de forma ascendente según Password:
     SELECT * FROM users ORDER BY SubscritionDate DESC, Password ASC;
 - Mostrar top 3: SELECT * FROM users ORDER BY SubscritionDate DESC, Password ASC LIMIT 3;
+- Mostrar filas a partir de la 2ª: SELECT * FROM Users WHERE Id > 2;
