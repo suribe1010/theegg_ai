@@ -1,1 +1,11 @@
+                                            SQL COMMANDS
+========================================================================================================
 
+- Mostrar todos los datos: SELECT * FROM users;
+- Mostrar datos especificos: SELECT Username, Password FROM users
+- Mostrar emails que NO SE REPITAN: SELECT DISTINCT emails FROM users; 
+- Mostrar todos datos ordenando en orden ascendente segun FamilyName: SELECT * FROM users ORDER BY FamilyName ASC;
+-                                        descendente                                                          DESC;
+- Ordenar de forma desscendente según SubscriptionDate y luego de forma ascendente según Password:
+    SELECT * FROM users ORDER BY SubscritionDate DESC, Password ASC;
+- Mostrar top 3: SELECT * FROM users ORDER BY SubscritionDate DESC, Password ASC LIMIT 3;
