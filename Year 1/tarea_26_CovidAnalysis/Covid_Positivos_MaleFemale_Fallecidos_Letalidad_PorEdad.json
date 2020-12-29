@@ -198,37 +198,5 @@
     "lethalityWomenRate" : 0.0,
     "lethalityMenRate" : 0.0,
     "ageRange" : "No consta"
-  } ],
-  "totals" : {
-    "population" : 2188017,
-    "womenPopulation" : 1126420,
-    "menPopulation" : 1061597,
-    "positiveCount" : 114613,
-    "positiveWomenCount" : 61417,
-    "positiveMenCount" : 53160,
-    "positivesByPopulationRate" : 5238.2134,
-    "positivesByWomenPopulationRate" : 5452.4067,
-    "positivesByMenPopulationRate" : 5007.55,
-    "positivesByPopulationPercentage" : 1.0,
-    "deceasedCount" : 2947,
-    "deceasedWomenCount" : 1476,
-    "deceasedMenCount" : 1471,
-    "lethalityRate" : 0.025712615,
-    "lethalityWomenRate" : 0.024032434,
-    "lethalityMenRate" : 0.02767118
-  },
-  "allAgeRanges" : [ "0 - 9 ", "10-19", "20 - 29 ", "30 - 39 ", "40 - 49 ", "50 - 59 ", "60 - 69 ", "70 - 79 ", "80 - 89 ", "Más de 90 edo gehiago", "No consta" ],
-  "positiveCounts" : [ 6594, 11563, 13766, 14261, 18586, 18024, 11542, 7742, 7075, 3343, 2117 ],
-  "psitiveWomenCounts" : [ 3293, 5629, 7255, 7883, 9990, 9714, 5741, 3852, 4399, 2560, 1101 ],
-  "positiveMenCounts" : [ 3301, 5933, 6507, 6372, 8594, 8306, 5792, 3890, 2675, 783, 1007 ],
-  "positivesByPopulationRates" : [ 3374.219, 5603.7764, 7094.048, 5353.851, 5180.261, 5378.725, 4239.486, 3829.4126, 5547.2793, 11148.164, 0.0 ],
-  "positivesByWomenPopulationRates" : [ 3453.3022, 5635.7627, 7594.0757, 5939.0796, 5639.1934, 5704.7886, 4033.1023, 3465.5872, 5526.521, 11433.676, 0.0 ],
-  "positivesByMenPopulationRates" : [ 3298.8557, 5572.828, 6605.0854, 4768.105, 4731.545, 5039.437, 4458.7114, 4273.692, 5579.6587, 10306.7, 0.0 ],
-  "positivesByPopulationPercentages" : [ 0.057532743, 0.100887336, 0.12010854, 0.12442742, 0.16216311, 0.15725964, 0.10070411, 0.06754906, 0.061729472, 0.029167721, 0.018470854 ],
-  "deceasedCounts" : [ 0, 0, 2, 10, 27, 57, 204, 521, 1240, 870, 0 ],
-  "deceasedWomenCounts" : [ 0, 0, 1, 4, 10, 26, 54, 162, 603, 605, 0 ],
-  "deceasedMenCounts" : [ 0, 0, 1, 6, 17, 31, 150, 359, 637, 265, 0 ],
-  "lethalityRates" : [ 0.0, 0.0, 1.4529E-4, 7.0121E-4, 0.001452706, 0.00316245, 0.01767458, 0.067295276, 0.17526501, 0.2602453, 0.0 ],
-  "lethalityWomenRates" : [ 0.0, 0.0, 1.3784E-4, 5.0742E-4, 0.001001001, 0.002676549, 0.009406027, 0.042056076, 0.1370766, 0.23632812, 0.0 ],
-  "lethalityMenRates" : [ 0.0, 0.0, 1.5368E-4, 9.4162E-4, 0.001978124, 0.003732242, 0.02589779, 0.09228792, 0.23813084, 0.33844188, 0.0 ]
+  } ]
 }
