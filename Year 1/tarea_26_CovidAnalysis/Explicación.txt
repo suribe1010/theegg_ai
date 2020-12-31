@@ -1,1 +1,8 @@
+Se adjunta un Análisis de la Enfermedad Covid-19 en el País Vasco en formato PDF.
 
+Se adjunta en este repositorio:
+1. Limpieza de datos --> se adjuntan los archivos CSV y JSON
+
+Igualmente se adjunta el código implementado para:
+2. Lectura de datos 
+3. Manipulación de datos para la representación en gráficos
