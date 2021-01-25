@@ -1,8 +1,8 @@
                                             SQL COMMANDS
 ========================================================================================================
 
-- Mostrar todos los datos: SELECT * FROM users;
-- Mostrar datos especificos: SELECT Username, Password FROM users
+- Mostrar todos los datos: SELECT * FROM users; donde users es el nombre de la tabla
+- Mostrar datos especificos: SELECT Username, Password FROM users donde Username y Password son columnas de la tabla
 - Mostrar emails que NO SE REPITAN: SELECT DISTINCT emails FROM users; 
 - Mostrar todos datos ordenando en orden ascendente segun FamilyName: SELECT * FROM users ORDER BY FamilyName ASC;
 -                                        descendente                                                          DESC;
