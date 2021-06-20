@@ -25,3 +25,4 @@ Programa NUMEROS --> programa sencillo donde la mayor dificultad posiblemente es
                      Empleamos una lista ya que permite operar sobre ella de forma muy cómoda.
 
 
+Programa ALUMNOS --> de nuevo usamos listas por su posibilidad de duplicar, ordenar, alterar, etc... Aunque en este caso nos apoyamos en SETS para obtener de forma fácil                      diferencias entre 2 sets, eliminar repeteciones dentro de una misma lista, etc...
