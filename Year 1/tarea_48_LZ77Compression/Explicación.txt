@@ -1,0 +1,32 @@
+----------------------------------------------------------------------------------------------------------------------------------
+PARA EJECUTAR EL CÓDIGO
+Clickar en "Open in Colab". Rectángulo que aparece arriba del archivo en azul.
+Parece que no deja entrar de primeras, te saldrá una venta diciendo que no es posible encontrarlo. 
+Debes dar autorización con Github, y te saldrá otra ventana diciendo que no se ha encontrado el archivo. 
+Dale a Aceptar y podrás manualmente elegir que archivo quieres abrir para ejecutar. 
+Es posible que te pida ingresar tu correo de Gmail. Hecho esto deberías poder ejecutar el código en google colab. 
+**Muy importante: ejecutar cada línea de código UNA vez y de FORMA ORDENADA DESCENDENTE --> 
+si la ejecutamos más de una vez, podemos cambiar el resultado final, y si nos saltamos alguna línea, seguramente salga error. 
+Deberías ser capaz de obtener los resultados que visualizas en GitHub. **
+
+¿Como saber si hemos ejecutado una línea? A la izquierda de la línea, aparece una celda. 
+Cuando ha acabado de ejecutarse, aparace un número que indica 2 cosas:
+- Que se ha ejecutado
+- Que es la X línea en ejecutarse (X = numero)
+
+¿Como ejecutar una línea? 2 opciones:
+- Pulsado ALT + ENTER una vez cuando hemos seleccionado dicha celda.
+- Símbolo de Play a la izquierda.
+
+--------------------------------------------------------------------------------------------------------------------------------------
+EXPLICACIÓN DEL CÓDIGO DE LA TAREA 48
+Se ha seguido el ejemplo mostrado en el video https://www.youtube.com/watch?v=y3xSuPDvpOE a partir del minuto 8. Aunque en la tarea
+se especifica que el string que se toma como entrada debe tener menos de 30 carácteres, en esta tarea no se ha puesto esa limitación
+ya que el algoritmo es capaz de trabajar con cualquier longitud de string.
+
+Primero se ha realizado la compresión del string, guardando 3 arrays -nos indican la posición a la que debemos ir hacia atrás, el
+número de elementos que debemos copiar, y el siguiente elemento después de esa secuencia-, los cuales actúan de parámetros de entrada
+para el algoritmo de decompresión. 
+
+Cabe decir que este algoritmo se hace muy útil cuando se repiten muchas secuencias. Basta con probar varias de ellas para observar el
+grado de compresión al que nos acercamos.
