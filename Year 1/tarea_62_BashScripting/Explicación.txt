@@ -1,1 +1,22 @@
+BASH SCRIPTING
 
+Se han creado 3 tareas que se consideran útiles:
+
+1. Simulador del comando PING --> este script trata de simular el comando ping que nos podemos encontrar en la terminal. Nos sirve para
+saber si tenemos comunicación o no. Por ejemplo, empleando el ejecutador de programas "CRON" de linus, podríamos programar en cada arranque
+de ordenador hacer un ping a los servidores de Google --> DNS: 8.8.8.8 --> así podríamos saber si tenemos Internet.
+
+Para ejecutarlo: con descargar el programa SimuladorPING.sh, posicionarnos en la carpeta y hacer "bash SimuladorPING.sh" será suficiente. Habrá que
+introducir una direccioń IP y esperar a que nos dé un resultado.
+
+
+2. Trabajo con bases de datos desde el bash --> creemos que esto puede ser muy útil ya que las bases de datos son ampliamente usadas en 
+el mundo de la Inteligencia Artificial. Por ello, se ha creado un ejemplo muy sencillo. Se ha creado una tabla con varios nombres y apellidos
+y se ha programado el script para realizar un filtrado. Esto se podría aplicar con cualquier comando SQL (por lo que las opciones son prácticamente
+infinitas). En el ejemplo realizado, con el ejecutador de programas "CRON" de nuevo, se podría hacer una búsqueda diaria para ver si se ha registrado
+un nuevo alumno con el nombre "Sergio". Pero esto es simplemente un ejemplo simple, sin embargo, con las bases de datos podemos hacer infinitud 
+de cosas, por lo que se cree que este tipo de interacciones con bases de datos tienen un gran potencial.
+
+Para ejecutarlo: en este caso, habrá que descargarse MySQL en el sistema operativo, crear una base de datos llamada Alumnos y una tabla llamada 
+Alumno con columnas nombre(VARCHAR(30)) y apellido(VARCHAR(30)). Luego, habrá que introducir varias filas de ejemplo, alguna con el nombre 'Sergio'
+para que el ejemplo tenga sentido. Habrá que descargar el programa SearchInDDBB.sh, posicionarnos en la carpeta y hacer "bash SearchInDDBB.sh". 
