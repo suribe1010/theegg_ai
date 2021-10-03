@@ -20,3 +20,13 @@ de cosas, por lo que se cree que este tipo de interacciones con bases de datos t
 Para ejecutarlo: en este caso, habrá que descargarse MySQL en el sistema operativo, crear una base de datos llamada Alumnos y una tabla llamada 
 Alumno con columnas nombre(VARCHAR(30)) y apellido(VARCHAR(30)). Luego, habrá que introducir varias filas de ejemplo, alguna con el nombre 'Sergio'
 para que el ejemplo tenga sentido. Habrá que descargar el programa SearchInDDBB.sh, posicionarnos en la carpeta y hacer "bash SearchInDDBB.sh". 
+
+
+3. MoveMultipleFilesWithName0-9 --> la idea de este script es hacer un ejemplo de como podemos buscar ficheros que contengan cualquier palabra, número,...
+en un directorio dado y moverlos a otro de forma automatizada. En el ejemplo que se ofrece, se buscan ficheros que empiezen por un número [0-9] y que 
+terminen con la extensión .txt --> por eso en el script podemos ver lo siguiente dentro del comando find [0-9]*.txt
+Lo que se ha hecho es crear dos directorios y un par de ficheros: 0.txt y 1.txt en el directorio origen. Se ha  introducido, como se ve en la imagen, el
+directorio destino para comprobar que finalmente se mueven ambos ficheros a este último destino. Algo así deberá hacer el evaluador.
+
+Para ejecutarlo: en este caso, habrá que descargar el programa MoveMultipleFilesWithName0-9.sh, posicionarnos en la carpeta y hacer "bash MoveMultipleFilesWithName0-9.sh". Tendremos que introducir los directorios origen y destino (si no existen se alertará). Y si ha encontrado archivos 
+con el siguiente formato: "[0-9].txt", los moverá a la carpeta destino.
